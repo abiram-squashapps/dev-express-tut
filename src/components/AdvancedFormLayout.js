@@ -14,7 +14,7 @@ function AdvancedFormLayout() {
     state: "",
     zipcode: "",
   });
-  const [selectedState, setSelectedState] = useState(null);
+
   let states = [
     { name: "Arizona", code: "Arizona" },
     { name: "California", value: "California" },
